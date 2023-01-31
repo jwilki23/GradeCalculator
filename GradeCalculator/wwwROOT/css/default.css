@@ -1,0 +1,28 @@
+﻿body {
+    font-family: Courier New, Courier, monospace;
+    max-width: 800px;
+    margin: auto;
+}
+
+label {
+    font-size: 20px;
+    color: dimgray;
+    width: 150px;
+    display: inline-block;
+}
+
+h1 {
+    color: darkblue;
+}
+
+h2 {
+    color: darkcyan;
+}
+
+h3 {
+    color: darkcyan;
+}
+
+ul { 
+    color: dodgerblue;
+}
