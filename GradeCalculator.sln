@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.33214.272
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradeCalculator", "GradeCalculator\GradeCalculator.csproj", "{248828F4-C2D1-456C-98FB-9A6D600C802E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GradeCalculator", "GradeCalculator\GradeCalculator.csproj", "{248828F4-C2D1-456C-98FB-9A6D600C802E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

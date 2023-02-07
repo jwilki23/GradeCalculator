@@ -5,11 +5,14 @@ var intexPct = 0.1075;
 var examsPct = 0.2151;
 
 $("#document").ready(function () {
-    $("#btnSend").click(function () {
-        var output = getOutput();
-        $("#output").text(output);
+   $("#btnSend").click(function () {
+       getOutput();
     });
 });
+//$("#btnSend").click(function () {
+//    var output = getOutput();
+//    alert(output);
+//});
 
 function getOutput() {
     var assignmentPoints = $("#assignments").val() * (assignmentPct);
@@ -61,7 +64,7 @@ function getOutput() {
             break;
     }
 
-    return("Final Percentage: " + totalPct +
+    alert("Final Percentage: " + totalPct +
         "\nFinal Grade: " + letterGrade);
 
 }
